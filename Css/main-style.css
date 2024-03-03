@@ -1,0 +1,508 @@
+*::selection{
+	background-color: #e8f2ff;
+}
+
+
+i{
+	margin:  0px 13px;
+	color: black;
+}
+
+textarea{
+	min-height: 100px;
+	overflow: hidden;
+}
+
+a, a:active, a:hover{
+	text-decoration: none;
+	transition: 1.5s ease-in-out;
+}
+
+.custom-container{
+	width: 90%;
+	margin: auto;
+}
+
+.bg-text{
+	padding-top: 22vh;
+}
+
+
+.bg-button{
+	transition: 0.7s ease-in-out;
+	padding: 13px 35px;
+	border-radius: 50px;
+	font-size: 17px;
+}
+
+.bg-button:hover{
+	color: white;
+}
+
+.start_page {
+	height: 100vh;
+	background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.6)), url("../Images/Bg/Sam.jpg");
+	background: linear-gradient(rgba(255,255,255,0));
+	background-size: cover;
+	background-position:  center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.word-break {
+	word-break: break-all;
+}
+
+.about_me{
+	background: linear-gradient(to right, rgba(255,255,255,0.4), rgba(255,255,255,0.7)), url("../Images/Wallpaper/undraw_remotely_2j6y.png");
+	background: linear-gradient(rgba(255,255,255,0));
+	background-size: contain;
+	background-position:  center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.about_form  input, .about_form textarea, .about_form .text_input{
+	border: none;
+	font-family: Mistral;
+	font-size: 22px;
+	color: #2886ff;
+}
+
+.about_form input:disabled{
+	background-color: white;
+}
+
+.about_form_input_header{
+	font-family: Segoe Print;
+}
+
+.quote_block {
+	background: linear-gradient(to right, rgba(255,0,0,0.8), rgba(255,0,0,0.8));
+	font-family: Mistral;
+	font-size: 25px;
+	color: white;
+}
+
+.header_font {
+	font-family: Copperplate Gothic Light;
+}
+
+.rounded_curve {
+	border-radius: 5px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+
+.fa-2x{
+	font-size: 140% !important;
+	transition: 0.6s ease-in-out;
+}
+
+.transparent-white{
+	background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.9));
+}
+
+.goto-top{
+	position: fixed;
+	bottom: 20px;
+	right: 7px;
+	transition: 2s ease;
+	color: red;
+}
+
+.goto-top:hover{
+	color: orange !important;
+}
+
+.hire_me {
+	background-color: #73e9ef !important;
+}
+
+.hire_me_button{
+	background-color: white;
+	color: #73e9ef;
+	text-align: center;
+	border-radius: 50px;
+	font-size: 20px;
+	padding: 15px 50px;
+	border: none;
+	transition: 0.6s ease-in-out !important;
+}
+
+.get_in_touch{
+	height: 100vh;
+	background: linear-gradient(to top, rgba(255,255,255,0.6), rgba(255,255,255,1)), url("../Images/Wallpaper/undraw_message_sent_1030.png");
+	background-size: contain;
+	background-position:  center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.get_in_touch input, .get_in_touch textarea{
+	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0));
+	border: none;
+	width: 95%;
+	padding: 10px 20px;
+	margin: 10px 0px;
+	border-bottom-style: solid;
+	border-color: #73e9ef;
+}
+/*
+.get_in_touch input:focus, .get_in_touch textarea:focus{ 
+}*/
+
+.get_in_touch textarea{
+	min-height: 200px;
+	max-height: 200px;
+}
+
+.resume-button, .message-button, .resume-button:hover, .resume-button:focus, .resume-button:active {
+	border-radius: 50px;
+	transition: 0.5s ease !important;
+	color: white;
+}
+
+
+.services{
+	background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url("../Images/Wallpaper/undraw_web_developer_p3e5.png");
+	background-size: contain;
+	background-position:  center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.service-border{
+	border-radius: 20px;
+	border : 2px solid white;
+}
+
+.i-round {
+	padding: 30px;
+	border: 2px solid white;
+	border-radius: 60px;
+}
+
+
+.resume-kbd {
+	background-color: #f3f3f3;
+	padding: 7px 50px;
+	border-radius: 10px;
+	letter-spacing: 3px;
+	font-size: 25px;
+	color: black;
+}
+
+.cards{
+	position: relative;
+	overflow: hidden;
+
+}
+
+.card-headers{
+	position: relative;
+	height: 30rem;
+	overflow: hidden;
+}
+
+.card-headers::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0; 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.9)) ;
+	border-radius: 20px;
+	z-index: 2;
+}
+
+.card_images{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0; 
+}
+
+.blog-details{
+	position: relative;
+	z-index: 5;
+	color: white;
+}
+
+h2.blog-titles{
+	padding-top: 70%;
+	line-height: 2rem;
+	margin-bottom: 2rem;
+	font-family: Bell Mt;
+}
+
+.blog-metas{
+	display: flex;
+	align-items: center;
+}
+
+
+.btn-design, .btn-design:hover, .btn-design:active, .btn-design:focus{
+	color: white;
+	border-radius: 70px;
+}
+
+.blog-excerpts{
+	text-align: justify;
+}
+
+
+.card_images{
+	border-radius: 20px;
+}
+
+.skills{
+	background-color: #73e9ef;
+}
+
+.skills-bar {
+	background-color: white;
+	border-radius: 7px;
+}
+
+.bar{
+	margin: 20px 0px;
+}
+
+.custom-shadow{
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
+
+.skills-bar .bar .info span {
+	font-size: 17px;
+	font-weight: 500px;
+}
+
+.skills-bar .bar .progress-line {
+	height: 10px;
+	width: 100%;
+	background-color: #f0f0f0;
+	border-radius: 20px;
+	position: relative;
+}
+
+.bar .progress-line span{
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	background: linear-gradient(to right, rgba(173, 216, 230, 1), rgba(135, 206, 250, 1), rgba(0, 191, 255, 1), rgba(30, 144, 255, 1), rgba(0, 0, 255, 1));
+	border-radius: 20px;
+}
+
+.progress-line.html span{
+	width: 90%;
+}
+
+.progress-line.css span{
+	width: 85%;
+}
+
+.progress-line.js span{
+	width: 75%;
+}
+
+.progress-line.python span{
+	width: 95%;
+}
+
+.progress-line.java span{
+	width: 90%;
+}
+
+.progress-line.cpp span{
+	width: 85%;
+}
+
+.bar .progress-line span::before{
+	position: absolute;
+	content: "";
+	right: 0px;
+	top: -10px;
+	height: 0px;
+	width: 0px;
+	border: 7px solid transparent;
+	border-bottom-width:  0px;
+	border-right-width: 0px;
+	border-top-color: black;
+}
+
+.bar .progress-line span::after{
+	position: absolute;
+	right: 0px;
+	top: -28px;
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: 500px;
+	background : #000000;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+
+.progress-line.html span::after{
+	content: "90%";
+}
+
+.progress-line.css span::after{
+	content: "85%";
+}
+
+.progress-line.js span::after{
+	content: "75%";
+}
+
+.progress-line.python span::after{
+	content: "95%";
+}
+
+.progress-line.java span::after{
+	content: "90%";
+}
+
+.progress-line.cpp span::after{
+	content: "85%";
+}
+
+.box .percent{
+	position: relative;
+}
+
+.box .percent svg{
+	width: 100%;
+	position: relative;
+}
+
+.box .percent svg circle { 
+	fill: none;
+	stroke-width : 8;
+	stroke-linecap: round;
+	stroke: #e6f8ff;
+}
+
+.box .percent svg circle:nth-child(1) {
+	stroke: #f6e9ff;
+}
+
+.box .percent svg circle:nth-child(2) {
+	stroke: #73e9ef;
+}
+
+.box .percent .number{
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	transform: translate(5px, 5px);
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	color: gray;
+}
+
+.box .text{
+	margin-top: -15px;
+	font-size: 15px;
+}
+
+
+/*100 % = 314*/
+.communication{
+	stroke-dasharray: 266;
+}
+
+.team_work{
+	stroke-dasharray: 274;
+}
+
+.management {
+	stroke-dasharray: 283;
+}
+
+.creativity{
+	stroke-dasharray: 289;	
+}
+
+.align-justify{
+	text-align: justify;
+	font-size: 17px;
+}
+
+.portfolio{
+	background: linear-gradient(to right, rgba(255,255,255,0.2), rgba(255,255,255,1)), url("../Images/Wallpaper/undraw_chilling_8tii.png");
+	background-size: contain;
+	background-position:  center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.portfolio-img{
+	border: 0px solid #f0f0f0;
+	border-radius: 15px;
+	transition: 0.6s ease-in-out;
+	box-shadow: 2px 2px 20px gray;
+}
+
+.portfolio-img:hover{
+	transform: scale(1.063);
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px black;
+}
+
+.fa-2x:hover{
+	transform: scale(2.3);
+	color: gray;
+}
+
+.red{
+	color: red;
+}
+
+.red:hover{
+	color: red;
+}
+
+
+.b-left{
+	border-left: 2px solid #f3f3f3;
+	position: relative;
+}
+
+.g-cap{
+	position: absolute;
+	left: -41.5px;
+	top: 0px;
+	font-size: 120% !important;
+	padding:17px  15px  !important;
+	background-color: #73e9ef;
+	color: white;
+	border-radius: 35px;
+}
+
+.masters{
+	padding: 10px 0px;
+	font-size: 4vh;
+	line-height: 4vh;
+}
+
+.university{
+	font-size: 2.5vh; 
+	padding: 4px 0px;
+	color: gray
+}
+
+.year{
+	font-size: 2vh;
+	margin-top: -3px;
+	color: gray;
+}
+
+.text-justify{
+	
+	font-size: 2vh;
+}
+
