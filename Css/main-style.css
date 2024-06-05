@@ -41,11 +41,7 @@ a, a:active, a:hover{
 
 .start_page {
 	height: 100vh;
-<<<<<<< HEAD
-	background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.6)), url("./Images/Bg/Sam.jpg");
-=======
 	background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.6)), url("../Images/Bg/Sam.jpg");
->>>>>>> ce0a2c0 (Code Updated 05 Jun 2024)
 	background: linear-gradient(rgba(255,255,255,0));
 	background-size: cover;
 	background-position:  center;
@@ -58,11 +54,7 @@ a, a:active, a:hover{
 }
 
 .about_me{
-<<<<<<< HEAD
-	background: linear-gradient(to right, rgba(255,255,255,0.4), rgba(255,255,255,0.7)), url("./Images/Wallpaper/undraw_remotely_2j6y.png");
-=======
 	background: linear-gradient(to right, rgba(255,255,255,0.4), rgba(255,255,255,0.7)), url("../Images/Wallpaper/undraw_remotely_2j6y.png");
->>>>>>> ce0a2c0 (Code Updated 05 Jun 2024)
 	background: linear-gradient(rgba(255,255,255,0));
 	background-size: contain;
 	background-position:  center;
@@ -140,11 +132,7 @@ a, a:active, a:hover{
 
 .get_in_touch{
 	height: 100vh;
-<<<<<<< HEAD
-	background: linear-gradient(to top, rgba(255,255,255,0.6), rgba(255,255,255,1)), url("./Images/Wallpaper/undraw_message_sent_1030.png");
-=======
 	background: linear-gradient(to top, rgba(255,255,255,0.6), rgba(255,255,255,1)), url("../Images/Wallpaper/undraw_message_sent_1030.png");
->>>>>>> ce0a2c0 (Code Updated 05 Jun 2024)
 	background-size: contain;
 	background-position:  center;
 	background-repeat: no-repeat;
@@ -177,11 +165,7 @@ a, a:active, a:hover{
 
 
 .services{
-<<<<<<< HEAD
-	background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url("./Images/Wallpaper/undraw_web_developer_p3e5.png");
-=======
 	background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url("../Images/Wallpaper/undraw_web_developer_p3e5.png");
->>>>>>> ce0a2c0 (Code Updated 05 Jun 2024)
 	background-size: contain;
 	background-position:  center;
 	background-repeat: no-repeat;
@@ -449,11 +433,7 @@ h2.blog-titles{
 }
 
 .portfolio{
-<<<<<<< HEAD
-	background: linear-gradient(to right, rgba(255,255,255,0.2), rgba(255,255,255,1)), url("./Images/Wallpaper/undraw_chilling_8tii.png");
-=======
 	background: linear-gradient(to right, rgba(255,255,255,0.2), rgba(255,255,255,1)), url("../Images/Wallpaper/undraw_chilling_8tii.png");
->>>>>>> ce0a2c0 (Code Updated 05 Jun 2024)
 	background-size: contain;
 	background-position:  center;
 	background-repeat: no-repeat;
